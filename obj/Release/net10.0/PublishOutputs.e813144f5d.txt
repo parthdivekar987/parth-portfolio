@@ -1,0 +1,8 @@
+D:\Parth-portfolio\publish\Parths_Portfolio.exe
+D:\Parth-portfolio\publish\appsettings.Development.json
+D:\Parth-portfolio\publish\appsettings.json
+D:\Parth-portfolio\publish\vercel.json
+D:\Parth-portfolio\publish\Parths_Portfolio.dll
+D:\Parth-portfolio\publish\Parths_Portfolio.deps.json
+D:\Parth-portfolio\publish\Parths_Portfolio.runtimeconfig.json
+D:\Parth-portfolio\publish\Parths_Portfolio.pdb

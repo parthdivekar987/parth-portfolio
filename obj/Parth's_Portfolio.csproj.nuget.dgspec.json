@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Parth Divekar\\source\\repos\\Parth's_Portfolio\\Parth's_Portfolio.csproj": {}
+    "D:\\Parth-portfolio\\Parth's_Portfolio.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Parth Divekar\\source\\repos\\Parth's_Portfolio\\Parth's_Portfolio.csproj": {
+    "D:\\Parth-portfolio\\Parth's_Portfolio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Parth Divekar\\source\\repos\\Parth's_Portfolio\\Parth's_Portfolio.csproj",
+        "projectUniqueName": "D:\\Parth-portfolio\\Parth's_Portfolio.csproj",
         "projectName": "Parths_Portfolio",
-        "projectPath": "C:\\Users\\Parth Divekar\\source\\repos\\Parth's_Portfolio\\Parth's_Portfolio.csproj",
+        "projectPath": "D:\\Parth-portfolio\\Parth's_Portfolio.csproj",
         "packagesPath": "C:\\Users\\Parth Divekar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Parth Divekar\\source\\repos\\Parth's_Portfolio\\obj\\",
+        "outputPath": "D:\\Parth-portfolio\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

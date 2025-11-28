@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "wwwroot/**",
+      "use": "@vercel/static"
+    }
+  ],
+  "outputDirectory": "wwwroot",
+  "cleanUrls": true,
+  "trailingSlash": false
+}

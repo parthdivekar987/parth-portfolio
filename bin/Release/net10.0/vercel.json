@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "publish/wwwroot/**",
+      "use": "@vercel/static"
+    }
+  ],
+  "outputDirectory": "publish/wwwroot"
+}

@@ -6,7 +6,5 @@
       "use": "@vercel/static"
     }
   ],
-  "outputDirectory": "wwwroot",
-  "cleanUrls": true,
-  "trailingSlash": false
+  "outputDirectory": "wwwroot"
 }

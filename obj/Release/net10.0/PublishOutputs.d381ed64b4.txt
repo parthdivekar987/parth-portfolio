@@ -1,0 +1,15 @@
+D:\Parth-portfolio\bin\Release\net10.0\publish\Parths_Portfolio.exe
+D:\Parth-portfolio\bin\Release\net10.0\publish\publish\web.config
+D:\Parth-portfolio\bin\Release\net10.0\publish\appsettings.Development.json
+D:\Parth-portfolio\bin\Release\net10.0\publish\appsettings.json
+D:\Parth-portfolio\bin\Release\net10.0\publish\publish\appsettings.Development.json
+D:\Parth-portfolio\bin\Release\net10.0\publish\publish\appsettings.json
+D:\Parth-portfolio\bin\Release\net10.0\publish\publish\Parths_Portfolio.deps.json
+D:\Parth-portfolio\bin\Release\net10.0\publish\publish\Parths_Portfolio.runtimeconfig.json
+D:\Parth-portfolio\bin\Release\net10.0\publish\publish\Parths_Portfolio.staticwebassets.endpoints.json
+D:\Parth-portfolio\bin\Release\net10.0\publish\publish\vercel.json
+D:\Parth-portfolio\bin\Release\net10.0\publish\vercel.json
+D:\Parth-portfolio\bin\Release\net10.0\publish\Parths_Portfolio.dll
+D:\Parth-portfolio\bin\Release\net10.0\publish\Parths_Portfolio.deps.json
+D:\Parth-portfolio\bin\Release\net10.0\publish\Parths_Portfolio.runtimeconfig.json
+D:\Parth-portfolio\bin\Release\net10.0\publish\Parths_Portfolio.pdb
