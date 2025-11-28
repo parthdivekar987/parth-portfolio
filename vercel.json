@@ -1,14 +1,17 @@
 ﻿{
+  "version": 2,
+  "public": true,
   "builds": [
     {
-      "src": "Parth_s_Portfolio.csproj",
-      "use": "@vercel/dotnet"
+      "src": "wwwroot/**/*",
+      "use": "@vercel/static"
     }
   ],
-  "routes": [
+  "outputDirectory": "wwwroot",
+  "rewrites": [
     {
-      "src": "/(.*)",
-      "dest": "/"
+      "source": "/(.*)",
+      "destination": "/$1"
     }
   ]
 }
