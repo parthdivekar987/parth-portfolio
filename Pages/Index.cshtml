@@ -1,0 +1,163 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home";
+}
+
+<!-- ==== FIX: Proper <style> block with inside ==== -->
+<style>
+    /* Floating animation */
+    @@keyframes float {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-30px); }
+    }
+
+  /*   Glowing pulse
+    @@keyframes glowPulse {
+        from { text-shadow: 0 0 40px rgba(0,212,170,0.6); }
+        to   { text-shadow: 0 0 80px rgba(0,212,170,0.9), 0 0 120px rgba(0,212,170,0.4); }
+    } */
+
+    /* Fade in from bottom */
+    @@keyframes fadeInUp {
+        from { opacity: 0; transform: translateY(50px); }
+        to   { opacity: 1; transform: translateY(0); }
+    }
+</style>
+
+<!-- FULL SCREEN HERO – PURE BG + INSANE EFFECTS (ALL INLINE) -->
+<section class="d-flex align-items-center justify-content-center text-center min-vh-100 position-relative overflow-hidden"
+         style="background: url('https://img.freepik.com/free-vector/gradient-geometric-design-dark-background_23-2148425667.jpg?semt=ais_hybrid&w=740&q=80') center/cover no-repeat fixed;">
+    
+    <!-- Subtle dark overlay for better text contrast -->
+    <div class="position-absolute top-0 start-0 w-100 h-100" 
+         style="background: rgba(10,5,30,0.45); backdrop-filter: blur(1px); z-index:1;"></div>
+
+    <div class="position-relative px-4" style="z-index:10;">
+        <!-- MAIN TITLE – FLOATING + NEON GRADIENT GLOW -->
+        <h1 style="
+            font-size: 7.5rem;
+            font-weight: 900;
+            background: linear-gradient(90deg, #ffffff, #00d4aa, #6c5ce7, #ffffff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            animation: float 8s ease-in-out infinite, glowPulse 3s infinite alternate;
+            letter-spacing: -4px;
+            margin: 0;
+            text-shadow: 0 0 80px rgba(0,212,170,0.7);
+        ">
+            Hi, I'm Parth
+        </h1>
+
+        <p style="
+            font-size: 2.4rem;
+            font-weight: 300;
+            color: #e0e0e0;
+            margin: 20px 0 15px;
+            animation: fadeInUp 1.8s ease-out 0.6s both;
+            text-shadow: 0 4px 20px rgba(0,0,0,0.8);
+        ">
+            Java Full-Stack Developer
+        </p>
+
+        <p style="
+            font-size: 1.4rem;
+            color: #bbbbff;
+            margin-bottom: 50px;
+            animation: fadeInUp 2s ease-out 0.9s both;
+        ">
+            Building modern web apps with 
+            <strong style="color:#00d4aa">Spring Boot</strong> • 
+            <strong style="color:#61dafb">React.js</strong> • 
+            <strong style="color:#f7df1e">MySQL</strong>
+        </p>
+
+        <!-- GOD-TIER BUTTONS -->
+        <div class="d-inline-flex gap-4 flex-wrap justify-content-center">
+            <!-- View My Work -->
+            <a asp-page="/Projects/Index"
+               style="
+                   padding: 18px 50px;
+                   font-size: 1.3rem;
+                   font-weight: 800;
+                   background: white;
+                   color: indianred;
+                   border-radius: 50px;
+                   text-decoration: none;
+                   position: relative;
+                   overflow: hidden;
+                   display: inline-block;
+                   box-shadow: 0 15px 40px rgba(0,0,0,0.4);
+                   transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+                   z-index: 1;
+               "
+               onmouseover="this.style.transform='translateY(-12px) scale(1.1)'; 
+                            this.style.boxShadow='0 30px 70px rgba(0,212,170,0.7)';
+                            this.querySelector('span').style.opacity='1';"
+               onmouseout="this.style.transform='translateY(0) scale(1)'; 
+                           this.style.boxShadow='0 15px 40px rgba(0,0,0,0.4)';
+                           this.querySelector('span').style.opacity='0';">
+                View My Work
+                <span style="position:absolute;inset:0;background:linear-gradient(45deg,#00d4aa,#00b894,#6c5ce7);opacity:0;transition:opacity 0.5s;z-index:-1;"></span>
+            </a>
+
+            <!-- Download CV -->
+            <a href="~/files/Parth_Divekar_Resume.pdf" download
+               style="
+                   padding: 18px 50px;
+                   font-size: 1.3rem;
+                   font-weight: 800;
+                   background: transparent;
+                   color: white;
+                   border: 3px solid rgba(255,255,255,0.5);
+                   border-radius: 50px;
+                   text-decoration: none;
+                   backdrop-filter: blur(10px);
+                   transition: all 0.5s ease;
+                   box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+               "
+               onmouseover="this.style.background='white'; this.style.color='#0a0a1f'; this.style.transform='translateY(-10px)'; this.style.boxShadow='0 25px 60px rgba(255,255,255,0.3)'"
+               onmouseout="this.style.background='transparent'; this.style.color='white'; this.style.transform='translateY(0)'; this.style.boxShadow='0 15px 40px rgba(0,0,0,0.3)'">
+                Download CV
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- SKILLS SECTION – OPAQUE VIOLET BACKGROUND (2025 STYLE) -->
+<section class="py-5" style="
+    background: linear-gradient(135deg, #4c1d95 0%, #7c3aed 50%, #a855f7 100%);
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+">
+    <!-- Optional subtle overlay pattern for depth -->
+    <div style="
+        position: absolute;
+        inset: 0;
+        background: url('data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22100%22 height=%22100%22 viewBox=%220 0 100 100%22><defs><pattern id=%22grid%22 width=%2210%22 height=%2210%22 patternUnits=%22userSpaceOnUse%22><path d=%22M 10 0 L 0 0 0 10%22 fill=%22none%22 stroke=%22rgba(255,255,255,0.03)%22 stroke-width=%221%22/></pattern></defs><rect width=%22100%22 height=%22100%22 fill=%22url(%23grid)%22/></svg>');
+        opacity: 0.3;
+        pointer-events: none;
+    "></div>
+
+    <div class="container position-relative" style="z-index: 2;">
+        <div class="row text-center text-white g-5">
+            <div class="col-md-4">
+                <h2 class="display-5 fw-bold mb-4" style="color:#c084fc;">Java & Spring Boot</h2>
+                <h5 class="fw-semibold">Backend Development</h5>
+                <p class="lead opacity-90">REST APIs • Spring Security • JPA/Hibernate • Microservices • Maven/Gradle</p>
+            </div>
+            <div class="col-md-4">
+                <h2 class="display-5 fw-bold mb-4" style="color:#a78bfa;">React.js</h2>
+                <h5 class="fw-semibold">Frontend Development</h5>
+                <p class="lead opacity-90">React Hooks • Redux • Tailwind CSS • Vite • Responsive UI</p>
+            </div>
+            <div class="col-md-4">
+                <h2 class="display-5 fw-bold mb-4" style="color:#e0aaff;">MySQL & DevOps</h2>
+                <h5 class="fw-semibold">Database & Tools</h5>
+                <p class="lead opacity-90">MySQL • Docker • Git/GitHub • Postman • AWS Basics</p>
+            </div>
+        </div>
+    </div>
+</section>

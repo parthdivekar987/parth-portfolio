@@ -1,0 +1,108 @@
+﻿@page
+@model Parth_s_Portfolio.Pages.ContactModel
+@{
+    ViewData["Title"] = "Contact Me";
+}
+
+<div class="container my-5 pt-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-8 text-center">
+
+            <h1 class="display-5 fw-bold text-primary mb-3">Let's Work Together</h1>
+            <p class="lead text-muted mb-5">Have a project, job opportunity, or just want to connect? Fill the form below!</p>
+
+            <!-- SUCCESS MESSAGE -->
+            @if (Request.Query["success"] == "1")
+            {
+                <div class="alert alert-success alert-dismissible fade show rounded-4 shadow-lg mb-4" role="alert">
+                    <i class="bi bi-check-circle-fill me-2"></i>
+                    <strong>Awesome!</strong> Your message was sent. I'll reply within 24 hours!
+                    <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                </div>
+            }
+
+            <div class="card shadow-lg border-0 rounded-4">
+                <div class="card-body p-5">
+
+                    <form method="POST" action="https://formspree.io/f/mdkvavzy" class="needs-validation" novalidate>
+
+                        <input type="hidden" name="_subject" value="New message from Parth's Portfolio!" />
+                        <input type="hidden" name="_next" value="/Contact?success=1" />
+                        <input type="hidden" name="_replyto" value="parthdivekar321@gmail.com" />
+
+                        <div class="row g-4">
+                            <div class="col-md-6">
+                                <label class="form-label fw-bold">Full Name <span class="text-danger">*</span></label>
+                                <input type="text" name="name" class="form-control form-control-lg rounded-pill" placeholder="John Doe" required>
+                                <div class="invalid-feedback">Please enter your name</div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <label class="form-label fw-bold">Email Address <span class="text-danger">*</span></label>
+                                <input type="email" name="email" class="form-control form-control-lg rounded-pill" placeholder="you@company.com" required>
+                                <div class="invalid-feedback">Valid email required</div>
+                            </div>
+                        </div>
+
+                        <div class="mt-4">
+                            <label class="form-label fw-bold">I'm reaching out for...</label>
+                            <select name="purpose" class="form-select form-select-lg rounded-pill">
+                                <option value="Job Opportunity">Job Opportunity / Full-time Role</option>
+                                <option value="Freelance Project">Freelance / Project Work</option>
+                                <option value="Internship">Internship Offer</option>
+                                <option value="Collaboration">Collaboration / Open Source</option>
+                                <option value="Mentorship">Mentorship or Guidance</option>
+                                <option value="Just Saying Hi" selected>Just Saying Hi :)</option>
+                            </select>
+                        </div>
+
+                        <div class="mt-4">
+                            <label class="form-label fw-bold">Company / Organization (optional)</label>
+                            <input type="text" name="company" class="form-control form-control-lg rounded-pill" placeholder="Google, Microsoft, StartupXYZ...">
+                        </div>
+
+                        <div class="mt-4">
+                            <label class="form-label fw-bold">Your Message <span class="text-danger">*</span></label>
+                            <textarea name="message" class="form-control rounded-3" rows="8"
+                                      placeholder="Hi Parth, I came across your portfolio and would love to discuss a .NET Developer role at our company..." required></textarea>
+                            <div class="invalid-feedback">Please write something :)</div>
+                        </div>
+
+                        <div class="text-center mt-5">
+                            <button type="submit" class="btn btn-primary btn-lg px-5 rounded-pill shadow">
+                                Send Message
+                            </button>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+
+            <div class="mt-5 text-muted">
+                Or reach me directly:<br>
+                <strong>parthdivekar321@gmail.com</strong> •
+                <a href="https://linkedin.com/in/parth-divekar" target="_blank" class="text-primary">LinkedIn</a> •
+                <a href="https://github.com/parthdivekar" target="_blank" class="text-primary">GitHub</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        (() => {
+            'use strict'
+            const forms = document.querySelectorAll('.needs-validation')
+            Array.from(forms).forEach(form => {
+                form.addEventListener('submit', event => {
+                    if (!form.checkValidity()) {
+                        event.preventDefault()
+                        event.stopPropagation()
+                    }
+                    form.classList.add('was-validated')
+                }, false)
+            })
+        })()
+    </script>
+}

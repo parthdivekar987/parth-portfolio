@@ -1,0 +1,106 @@
+﻿@page
+@model Parth_s_Portfolio.Pages.Projects.IndexModel
+@{
+    ViewData["Title"] = "My Projects";
+}
+
+<div class="container my-5">
+    <div class="text-center mb-5">
+        <h1 class="display-5 fw-bold text-primary mb-3">My Projects</h1>
+        <p class="lead text-muted">Here are some of the projects I'm proud of</p>
+    </div>
+
+    <div class="row g-5">
+        <!-- Project 1 -->
+        <div class="col-md-6 col-lg-4">
+            <div class="project-card h-100 d-flex flex-column shadow-sm">
+                <img src="https://softwaresindemand.com/assets/images/how_it_works_images/6780c93b22a5e1736493371.png" 
+                     class="card-img-top" alt="E-Commerce App" style="height: 220px; object-fit: cover;">
+                
+                <div class="card-body d-flex flex-column flex-grow-1 p-4">
+                    <h5 class="card-title fw-bold mb-3">E-Commerce Platform</h5>
+                      <p class="card-text text-muted flex-grow-1">
+                     A full-stack platform that enables users to browse products, manage carts, and complete online purchases.
+                    </p>
+                    
+                    <div class="mb-3">
+                        <span class="badge bg-primary me-2">React.js + Tailwind</span>
+                        <span class="badge bg-success me-2">Spring Boot</span>
+                        <span class="badge bg-info">MySQL</span>
+                    </div>
+
+                    <!-- THIS BUTTON WILL ALWAYS BE VISIBLE -->
+                    <a href="https://github.com/parthdivekar987" 
+                       target="_blank"
+                       class="btn btn-primary mt-3 fw-bold px-4 position-relative overflow-hidden shadow-lg align-self-start">
+                        View Project
+                        <span style="position: absolute; inset: 0; background: linear-gradient(45deg, #4361ee, #7209b7); opacity: 0; transition: opacity 0.4s; z-index: -1;"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="col-md-6 col-lg-4">
+            <div class="project-card h-100 d-flex flex-column shadow-sm">
+                <img src="https://media.istockphoto.com/id/1480239219/photo/an-analyst-uses-a-computer-and-dashboard-for-data-business-analysis-and-data-management.jpg?s=612x612&w=0&k=20&c=URv6HYZ8L3NCQnxT8-ITvInMW7mlsTE6EjnXHaqF-H4=" 
+                     class="card-img-top" alt="Task Manager" style="height: 220px; object-fit: cover;">
+                
+                <div class="card-body d-flex flex-column flex-grow-1 p-4">
+                    <h5 class="card-title fw-bold mb-3">User Dashboard Management</h5>
+                    <p class="card-text text-muted flex-grow-1">
+                       A centralized interface for creating, updating, and managing user records with role-based access.
+                    </p>
+                    
+                    <div class="mb-3">
+                        <span class="badge bg-primary me-2">React js </span>
+                        <span class="badge bg-warning text-dark me-2">+vite</span>
+                    </div>
+
+                    <a href="https://github.com/parthdivekar987" 
+                       target="_blank"
+                       class="btn btn-primary mt-3 fw-bold px-4 position-relative overflow-hidden shadow-lg align-self-start">
+                        View Project
+                        <span style="position: absolute; inset: 0; background: linear-gradient(45deg, #4361ee, #7209b7); opacity: 0; transition: opacity 0.4s; z-index: -1;"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="col-md-6 col-lg-4">
+            <div class="project-card h-100 d-flex flex-column shadow-sm">
+                <img src="https://cdn.prod.website-files.com/65fabbf8f7f7323a634a308c/6697a8662e63dfe68b424df5_Group%201171275865.png" 
+                     class="card-img-top" alt="Weather Dashboard" style="height: 220px; object-fit: cover;">
+                
+                <div class="card-body d-flex flex-column flex-grow-1 p-4">
+                    <h5 class="card-title fw-bold mb-3">LibraryManagement System</h5>
+                    <p class="card-text text-muted flex-grow-1">
+                        A system that streamlines book inventory, user registrations, and borrowing/return operations.
+
+
+                    </p>
+                    
+                    <div class="mb-3">
+                        <span class="badge bg-primary me-2">html css jsp</span>
+                        <span class="badge bg-danger me-2">Backend-SpringMVC </span>
+                    </div>
+
+                    <a href="https://github.com/parthdivekar987" 
+                       target="_blank"
+                       class="btn btn-primary mt-3 fw-bold px-4 position-relative overflow-hidden shadow-lg align-self-start">
+                        View Project
+                        <span style="position: absolute; inset: 0; background: linear-gradient(45deg, #4361ee, #7209b7); opacity: 0; transition: opacity 0.4s; z-index: -1;"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    /* Hover effect for the glowing button */
+    .btn-primary:hover span { opacity: 1; }
+    .btn-primary:hover { transform: translateY(-4px); }
+    .project-card { border-radius: 20px; overflow: hidden; }
+</style>

@@ -1,0 +1,230 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Parth Divekar\\source\\repos\\Parth\u0027s_Portfolio\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{334573A2-A6DE-660C-0C96-A786E7CA11F8}|Parth\u0027s_Portfolio.csproj|c:\\users\\parth divekar\\source\\repos\\parth\u0027s_portfolio\\pages\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{334573A2-A6DE-660C-0C96-A786E7CA11F8}|Parth\u0027s_Portfolio.csproj|solutionrelative:pages\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{334573A2-A6DE-660C-0C96-A786E7CA11F8}|Parth\u0027s_Portfolio.csproj|c:\\users\\parth divekar\\source\\repos\\parth\u0027s_portfolio\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{334573A2-A6DE-660C-0C96-A786E7CA11F8}|Parth\u0027s_Portfolio.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{334573A2-A6DE-660C-0C96-A786E7CA11F8}|Parth\u0027s_Portfolio.csproj|c:\\users\\parth divekar\\source\\repos\\parth\u0027s_portfolio\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{334573A2-A6DE-660C-0C96-A786E7CA11F8}|Parth\u0027s_Portfolio.csproj|solutionrelative:pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{334573A2-A6DE-660C-0C96-A786E7CA11F8}|Parth\u0027s_Portfolio.csproj|c:\\users\\parth divekar\\source\\repos\\parth\u0027s_portfolio\\models\\projectitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{334573A2-A6DE-660C-0C96-A786E7CA11F8}|Parth\u0027s_Portfolio.csproj|solutionrelative:models\\projectitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{334573A2-A6DE-660C-0C96-A786E7CA11F8}|Parth\u0027s_Portfolio.csproj|c:\\users\\parth divekar\\source\\repos\\parth\u0027s_portfolio\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{334573A2-A6DE-660C-0C96-A786E7CA11F8}|Parth\u0027s_Portfolio.csproj|solutionrelative:pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{334573A2-A6DE-660C-0C96-A786E7CA11F8}|Parth\u0027s_Portfolio.csproj|c:\\users\\parth divekar\\source\\repos\\parth\u0027s_portfolio\\pages\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{334573A2-A6DE-660C-0C96-A786E7CA11F8}|Parth\u0027s_Portfolio.csproj|solutionrelative:pages\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{334573A2-A6DE-660C-0C96-A786E7CA11F8}|Parth\u0027s_Portfolio.csproj|c:\\users\\parth divekar\\source\\repos\\parth\u0027s_portfolio\\pages\\projects\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{334573A2-A6DE-660C-0C96-A786E7CA11F8}|Parth\u0027s_Portfolio.csproj|solutionrelative:pages\\projects\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{334573A2-A6DE-660C-0C96-A786E7CA11F8}|Parth\u0027s_Portfolio.csproj|c:\\users\\parth divekar\\source\\repos\\parth\u0027s_portfolio\\pages\\shared\\contact.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{334573A2-A6DE-660C-0C96-A786E7CA11F8}|Parth\u0027s_Portfolio.csproj|solutionrelative:pages\\shared\\contact.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{334573A2-A6DE-660C-0C96-A786E7CA11F8}|Parth\u0027s_Portfolio.csproj|c:\\users\\parth divekar\\source\\repos\\parth\u0027s_portfolio\\pages\\projects\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{334573A2-A6DE-660C-0C96-A786E7CA11F8}|Parth\u0027s_Portfolio.csproj|solutionrelative:pages\\projects\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{334573A2-A6DE-660C-0C96-A786E7CA11F8}|Parth\u0027s_Portfolio.csproj|c:\\users\\parth divekar\\source\\repos\\parth\u0027s_portfolio\\pages\\about.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{334573A2-A6DE-660C-0C96-A786E7CA11F8}|Parth\u0027s_Portfolio.csproj|solutionrelative:pages\\about.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{334573A2-A6DE-660C-0C96-A786E7CA11F8}|Parth\u0027s_Portfolio.csproj|c:\\users\\parth divekar\\source\\repos\\parth\u0027s_portfolio\\pages\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{334573A2-A6DE-660C-0C96-A786E7CA11F8}|Parth\u0027s_Portfolio.csproj|solutionrelative:pages\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{334573A2-A6DE-660C-0C96-A786E7CA11F8}|Parth\u0027s_Portfolio.csproj|c:\\users\\parth divekar\\source\\repos\\parth\u0027s_portfolio\\pages\\contact.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{334573A2-A6DE-660C-0C96-A786E7CA11F8}|Parth\u0027s_Portfolio.csproj|solutionrelative:pages\\contact.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{334573A2-A6DE-660C-0C96-A786E7CA11F8}|Parth\u0027s_Portfolio.csproj|c:\\users\\parth divekar\\source\\repos\\parth\u0027s_portfolio\\pages\\shared\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{334573A2-A6DE-660C-0C96-A786E7CA11F8}|Parth\u0027s_Portfolio.csproj|solutionrelative:pages\\shared\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\Parth Divekar\\source\\repos\\Parth\u0027s_Portfolio\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\Parth Divekar\\source\\repos\\Parth\u0027s_Portfolio\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAAIMAAAAAAAAAAAAiwOcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-23T08:43:16.282Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Parth Divekar\\source\\repos\\Parth\u0027s_Portfolio\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Parth Divekar\\source\\repos\\Parth\u0027s_Portfolio\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAADsAAAAAAAAAAAAiwFcAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-23T08:44:50.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Contact.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Parth Divekar\\source\\repos\\Parth\u0027s_Portfolio\\Pages\\Shared\\Contact.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Shared\\Contact.cshtml.cs",
+              "ToolTip": "C:\\Users\\Parth Divekar\\source\\repos\\Parth\u0027s_Portfolio\\Pages\\Shared\\Contact.cshtml.cs",
+              "RelativeToolTip": "Pages\\Shared\\Contact.cshtml.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAwwDUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T08:50:41.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProjectItem.cs",
+              "DocumentMoniker": "C:\\Users\\Parth Divekar\\source\\repos\\Parth\u0027s_Portfolio\\Models\\ProjectItem.cs",
+              "RelativeDocumentMoniker": "Models\\ProjectItem.cs",
+              "ToolTip": "C:\\Users\\Parth Divekar\\source\\repos\\Parth\u0027s_Portfolio\\Models\\ProjectItem.cs",
+              "RelativeToolTip": "Models\\ProjectItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T08:38:04.904Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Parth Divekar\\source\\repos\\Parth\u0027s_Portfolio\\Pages\\Projects\\Index.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Projects\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Parth Divekar\\source\\repos\\Parth\u0027s_Portfolio\\Pages\\Projects\\Index.cshtml",
+              "RelativeToolTip": "Pages\\Projects\\Index.cshtml",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAwwGkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-24T15:59:17.275Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Parth Divekar\\source\\repos\\Parth\u0027s_Portfolio\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Parth Divekar\\source\\repos\\Parth\u0027s_Portfolio\\Pages\\Index.cshtml",
+              "RelativeToolTip": "Pages\\Index.cshtml",
+              "ViewState": "AgIAAEIAAAAAAAAAAIAwwFMAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-23T08:17:24.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\Users\\Parth Divekar\\source\\repos\\Parth\u0027s_Portfolio\\Pages\\About.cshtml",
+              "RelativeDocumentMoniker": "Pages\\About.cshtml",
+              "ToolTip": "C:\\Users\\Parth Divekar\\source\\repos\\Parth\u0027s_Portfolio\\Pages\\About.cshtml",
+              "RelativeToolTip": "Pages\\About.cshtml",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAF4AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-24T15:28:55.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\Parth Divekar\\source\\repos\\Parth\u0027s_Portfolio\\Pages\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "Pages\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "C:\\Users\\Parth Divekar\\source\\repos\\Parth\u0027s_Portfolio\\Pages\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "Pages\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAiwBkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-24T15:08:10.613Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "About.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Parth Divekar\\source\\repos\\Parth\u0027s_Portfolio\\Pages\\About.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\About.cshtml.cs",
+              "ToolTip": "C:\\Users\\Parth Divekar\\source\\repos\\Parth\u0027s_Portfolio\\Pages\\About.cshtml.cs",
+              "RelativeToolTip": "Pages\\About.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T15:32:29.44Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "C:\\Users\\Parth Divekar\\source\\repos\\Parth\u0027s_Portfolio\\Pages\\Contact.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Contact.cshtml",
+              "ToolTip": "C:\\Users\\Parth Divekar\\source\\repos\\Parth\u0027s_Portfolio\\Pages\\Contact.cshtml",
+              "RelativeToolTip": "Pages\\Contact.cshtml",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAwwGsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-24T15:53:47.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Parth Divekar\\source\\repos\\Parth\u0027s_Portfolio\\Pages\\Projects\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Projects\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\Parth Divekar\\source\\repos\\Parth\u0027s_Portfolio\\Pages\\Projects\\Index.cshtml.cs",
+              "RelativeToolTip": "Pages\\Projects\\Index.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T15:59:38.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Contact.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Parth Divekar\\source\\repos\\Parth\u0027s_Portfolio\\Pages\\Contact.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Contact.cshtml.cs",
+              "ToolTip": "C:\\Users\\Parth Divekar\\source\\repos\\Parth\u0027s_Portfolio\\Pages\\Contact.cshtml.cs",
+              "RelativeToolTip": "Pages\\Contact.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T15:54:11.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "C:\\Users\\Parth Divekar\\source\\repos\\Parth\u0027s_Portfolio\\Pages\\Shared\\Contact.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Shared\\Contact.cshtml",
+              "ToolTip": "C:\\Users\\Parth Divekar\\source\\repos\\Parth\u0027s_Portfolio\\Pages\\Shared\\Contact.cshtml",
+              "RelativeToolTip": "Pages\\Shared\\Contact.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-23T08:34:18.067Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

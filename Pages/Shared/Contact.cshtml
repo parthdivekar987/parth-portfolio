@@ -1,0 +1,58 @@
+﻿@page
+@model Parth_s_Portfolio.Pages.ContactModel
+@{
+    ViewData["Title"] = "Contact Me";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <h2 class="text-center mb-4">Get in Touch</h2>
+            <p class="text-center text-muted mb-4">Have a project in mind or just want to say hi? Fill out the form below!</p>
+
+            <!-- Success Message Alert -->
+            @if (!string.IsNullOrEmpty(Model.SuccessMessage))
+            {
+                <div class="alert alert-success alert-dismissible fade show" role="alert">
+                    <strong>Success!</strong> @Model.SuccessMessage
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+            }
+
+            <div class="card shadow-sm p-4">
+                <form method="post">
+                    <!-- Name Field -->
+                    <div class="mb-3">
+                        <label asp-for="Contact.Name" class="form-label">Name</label>
+                        <input asp-for="Contact.Name" class="form-control" placeholder="Your Name" />
+                        <span asp-validation-for="Contact.Name" class="text-danger"></span>
+                    </div>
+
+                    <!-- Email Field -->
+                    <div class="mb-3">
+                        <label asp-for="Contact.Email" class="form-label">Email</label>
+                        <input asp-for="Contact.Email" class="form-control" placeholder="name@example.com" />
+                        <span asp-validation-for="Contact.Email" class="text-danger"></span>
+                    </div>
+
+                    <!-- Message Field -->
+                    <div class="mb-3">
+                        <label asp-for="Contact.Message" class="form-label">Message</label>
+                        <textarea asp-for="Contact.Message" class="form-control" rows="5" placeholder="How can I help you?"></textarea>
+                        <span asp-validation-for="Contact.Message" class="text-danger"></span>
+                    </div>
+
+                    <!-- Submit Button -->
+                    <div class="d-grid">
+                        <button type="submit" class="btn btn-primary btn-lg">Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- This section enables client-side validation (instant red errors without reloading) -->
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

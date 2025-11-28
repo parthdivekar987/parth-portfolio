@@ -1,0 +1,135 @@
+﻿@page
+@model Parth_s_Portfolio.Pages.AboutModel
+@{
+    ViewData["Title"] = "About Me";
+}
+
+<div class="container my-5" style="font-family: 'Segoe UI', system-ui, sans-serif; color: #1a1a1a;">
+    <div class="row align-items-start g-5">
+
+        <!-- PROFILE PHOTO – ALWAYS ON TOP -->
+        <div class="col-lg-4 text-center order-first order-lg-1">
+            <div style="display:inline-block; animation:float 6s ease-in-out infinite;">
+                <img src="~/Parth2.jpg" alt="Parth Divekar"
+                     class="rounded-circle img-fluid shadow-lg border border-5 border-primary"
+                     style="width:320px; height:320px; object-fit:cover; object-position:center 10%;"
+                     onerror="this.src='https://via.placeholder.com/320?text=Parth'" />
+            </div>
+            <h3 class="mt-4 fw-bold" style="color:#4361ee;">Parth Divekar</h3>
+            <p class="text-muted fs-5">Java Full-Stack Developer</p>
+        </div>
+
+        <!-- ABOUT TEXT -->
+        <div class="col-lg-8 order-2">
+
+            <h1 style="font-size:3.4rem; display:inline-block; animation:breathe 4.5s ease-in-out infinite; color:#4361ee; font-weight:900;">
+                About Me
+            </h1>
+
+            <p class="lead fs-5 mt-4" style="line-height:1.8; color:#1a1a1a;">
+                Hello! I'm <strong>Parth Divekar</strong>, a dedicated <strong>Java Full-Stack Developer</strong> from India,
+                focused on building scalable, secure, and high-performance web applications.
+            </p>
+
+            <p class="fs-5 mt-3" style="line-height:1.8; color:#2d2d2d;">
+                My journey began with Core Java and object-oriented programming concepts. Over time, I’ve gained strong expertise
+                in <strong>Spring Boot</strong>, <strong>Spring MVC</strong>, <strong>Spring Security</strong>, <strong>JPA/Hibernate</strong>,
+                RESTful APIs, and modern frontend technologies. I love creating end-to-end solutions — from designing efficient backend
+                architectures and microservices fundamentals to building responsive, user-friendly interfaces.
+            </p>
+
+            <p class="fs-5 mt-3" style="line-height:1.8; color:#2d2d2d;">
+                I specialize in real-world applications using Java, Spring ecosystem, and clean architecture principles.
+                With hands-on experience across the full development lifecycle (analysis → design → coding → testing → deployment → maintenance),
+                I’m passionate about clean code, design patterns, performance optimization, and continuous learning.
+            </p>
+
+            <!-- TECHNICAL SKILLS -->
+            <h3 class="mt-5 mb-4 fw-bold"
+                style="font-size:2.6rem; display:inline-block; animation:breathe 4.5s ease-in-out infinite; color:#4361ee;">
+                Technical Skills
+            </h3>
+
+            <div class="row g-5">
+
+                <!-- Backend -->
+                <div class="col-md-6">
+                    <p style="font-size:1.4rem; color:#a855f7; font-weight:700; margin-bottom:0.8rem;">Backend</p>
+                    <ul class="list-unstyled fs-5" style="color:#333; line-height:2;">
+                        <li>• Core Java, Advanced Java, OOP, Collections</li>
+                        <li>• Spring Boot, Spring MVC, Spring Security</li>
+                        <li>• Spring Data JPA, Hibernate</li>
+                        <li>• RESTful APIs, JSON, JWT Authentication</li>
+                    </ul>
+                </div>
+
+                <!-- Frontend -->
+                <div class="col-md-6">
+                    <p style="font-size:1.4rem; color:#a855f7; font-weight:700; margin-bottom:0.8rem;">Frontend</p>
+                    <ul class="list-unstyled fs-5" style="color:#333; line-height:2;">
+                        <li>• HTML5, CSS3, JavaScript (ES6+)</li>
+                        <li>• React.js (Hooks, Components), Bootstrap 5</li>
+                        <li>• Thymeleaf, Responsive & Mobile-First Design</li>
+                    </ul>
+                </div>
+
+                <!-- Databases -->
+                <div class="col-md-6">
+                    <p style="font-size:1.4rem; color:#a855f7; font-weight:700; margin-bottom:0.8rem;">Databases</p>
+                    <ul class="list-unstyled fs-5" style="color:#333; line-height:2;">
+                        <li>• MySQL, PostgreSQL, H2 Database</li>
+                        <li>• Advanced SQL: Joins, Indexes, Stored Procedures</li>
+                    </ul>
+                </div>
+
+                <!-- DevOps & Tools -->
+                <div class="col-md-6">
+                    <p style="font-size:1.4rem; color:#a855f7; font-weight:700; margin-bottom:0.8rem;">DevOps & Tools</p>
+                    <ul class="list-unstyled fs-5" style="color:#333; line-height:2;">
+                        <li>• Git & GitHub, Maven</li>
+                        <li>• Docker (Basics), Postman</li>
+                        <li>• IntelliJ IDEA, VS Code, MySQL Workbench</li>
+                    </ul>
+                </div>
+
+              
+            </div>
+
+            <!-- BUTTONS -->
+            <div class="mt-5">
+                <a asp-page="/Contact"
+                   class="btn btn-primary btn-lg me-4 shadow-lg rounded-pill px-5 py-3 fw-bold text-white"
+                   style="background:linear-gradient(45deg,#4361ee,#7209b7); border:none;">
+                    Let's Connect
+                </a>
+                <a href="~/resume.pdf" download
+                   class="btn btn-outline-primary btn-lg shadow-lg rounded-pill px-5 py-3 fw-bold">
+                    Download Resume
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ANIMATIONS (Inline) -->
+<style>
+    @@keyframes breathe {
+        0%, 100% {
+            transform: scale(1);
+        }
+
+        50% {
+            transform: scale(1.08);
+        }
+    }
+
+    @@keyframes float {
+        0%, 100% {
+            transform: translateY(0);
+        }
+
+        50% {
+            transform: translateY(-16px);
+        }
+    }
+</style>

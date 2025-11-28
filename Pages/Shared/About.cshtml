@@ -1,0 +1,84 @@
+﻿@page
+@model Parth_s_Portfolio.Pages.AboutModel
+@{
+    ViewData["Title"] = "About Me";
+}
+
+<div class="container my-5">
+    <div class="row align-items-center g-5">
+        <!-- Profile Photo -->
+        <div class="col-lg-4 text-center">
+            <img src="~/images/profile.jpg"
+                 alt="Parth Divekar"
+                 class="rounded-circle img-fluid shadow-lg border border-4 border-primary"
+                 style="width: 280px; height: 280px; object-fit: cover;"
+                 onerror="this.src='https://via.placeholder.com/280?text=Parth'" />
+            <h4 class="mt-3 text-primary fw-bold">Parth Divekar</h4>
+        </div>
+
+        <!-- About Text -->
+        <div class="col-lg-8">
+            <h1 class="display-5 fw-bold text-primary mb-4">About Me</h1>
+
+            <p class="lead fs-5">
+                Hello! I'm <strong>Parth Divekar</strong>, a passionate <strong>.NET Developer</strong> from India
+                with a strong focus on building clean, scalable, and high-performance web applications.
+            </p>
+
+            <p class="text-muted">
+                My journey began with C# and ASP.NET, and over the years I've mastered modern full-stack development
+                using <strong>ASP.NET Core</strong>, <strong>Entity Framework</strong>, <strong>Azure Cloud</strong>,
+                and responsive front-end design with Bootstrap and JavaScript.
+            </p>
+
+            <p class="text-muted">
+                I love turning ideas into reality through code, optimizing performance, and writing maintainable
+                solutions that make a real impact.
+            </p>
+
+            <h3 class="mt-5 mb-3 text-primary">Technical Skills</h3>
+            <div class="row">
+                <div class="col-md-6">
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><strong>Languages:</strong> C#, JavaScript, SQL, HTML/CSS</li>
+                        <li class="mb-2"><strong>Frameworks:</strong> ASP.NET Core, Blazor, Entity Framework Core</li>
+                        <li class="mb-2"><strong>Frontend:</strong> Bootstrap 5, Razor Pages, Minimal APIs</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><strong>Cloud & DevOps:</strong> Microsoft Azure, Git, Azure DevOps</li>
+                        <li class="mb-2"><strong>Tools:</strong> Visual Studio 2022, VS Code, Postman, SQL Server</li>
+                        <li class="mb-2"><strong>Others:</strong> REST APIs, JWT Auth, Clean Architecture</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="mt-5">
+                <a asp-page="/Contact" class="btn btn-primary btn-lg me-3 shadow">
+                    Contact Me
+                </a>
+                <a href="~/resume.pdf" target="_blank" class="btn btn-outline-primary btn-lg shadow">
+                    Download CV
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        // Optional: Add a little animation on load
+        document.addEventListener("DOMContentLoaded", function () {
+            document.querySelectorAll('.col-lg-4 img, .col-lg-8').forEach(el => {
+                el.style.opacity = "0";
+                el.style.transform = "translateY(20px)";
+                el.style.transition = "all 0.8s ease";
+                setTimeout(() => {
+                    el.style.opacity = "1";
+                    el.style.transform = "translateY(0)";
+                }, 100);
+            });
+        });
+    </script>
+}

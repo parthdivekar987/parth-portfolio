@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>@ViewData["Title"] - Parth's Portfolio</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="icon" href="~/favicon.ico" type="image/x-icon" />
+
+    <!-- PURE GEOMETRIC BG ONLY ON HOME PAGE – NO BLUR, NO CARD, JUST RAW IMAGE -->
+    @if (Context.Request.Path == "/" || Context.Request.Path.Value.EndsWith("Index"))
+    {
+        <style>
+            body {
+                background: url('https://img.freepik.com/free-vector/gradient-geometric-design-dark-background_23-2148425667.jpg?semt=ais_hybrid&w=740&q=80') 
+                            center/cover no-repeat fixed;
+                color: #ffffff !important;
+                min-height: 100vh;
+            }
+            /* Make text readable on dark bg */
+            h1, h2, h3, h4, h5, h6, p, .lead, .display-5 {
+                color: #ffffff !important;
+                text-shadow: 0 2px 10px rgba(0,0,0,0.6);
+            }
+            /* Optional: make buttons pop on dark bg */
+            .btn-primary {
+                background: rgba(255,255,255,0.2) !important;
+                border: 2px solid rgba(255,255,255,0.4) !important;
+                color: white !important;
+                backdrop-filter: blur(8px);
+            }
+            .btn-primary:hover {
+                background: white !important;
+                color: #4361ee !important;
+                transform: translateY(-3px);
+            }
+        </style>
+    }
+</head>
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center gap-3" href="/">
+                    <img src="~/Parth2.jpg" alt="Parth Divekar" width="46" height="46"
+                         class="rounded-circle shadow-sm border border-3 border-white" style="object-fit: cover;">
+                    <span class="fw-bold fs-2">Parth's Portfolio</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                   <ul class="navbar-nav ms-auto">
+    <li class="nav-item"><a class="nav-link fw-bold fs-5" asp-page="/Index">Home</a></li>
+    <li class="nav-item"><a class="nav-link fw-bold fs-5" asp-page="/About">About Me</a></li>
+    <li class="nav-item"><a class="nav-link fw-bold fs-5" asp-page="/Projects/Index">Projects</a></li>
+    <li class="nav-item"><a class="nav-link fw-bold fs-5" asp-page="/Contact">Contact</a></li>
+</ul>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="flex-grow-1">
+        <div class="container">
+            @RenderBody()
+        </div>
+    </main>
+
+    <footer class="footer bg-dark text-white py-4 mt-auto">
+        <div class="container text-center">
+            <p class="mb-0">
+                © 2024 - 2025 Parth Divekar • .NET Developer •
+                <a href="https://github.com/parthdivekar987" target="_blank" rel="noopener" class="text-white fw-bold text-decoration-underline">GitHub</a> •
+                <a href="https://www.linkedin.com/in/parth-divekar-5872a4252" target="_blank" rel="noopener" class="text-white fw-bold text-decoration-underline">LinkedIn</a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
