@@ -1,17 +1,12 @@
-﻿{
+{
   "version": 2,
-  "public": true,
   "builds": [
     {
-      "src": "wwwroot/**/*",
+      "src": "wwwroot/**",
       "use": "@vercel/static"
     }
   ],
   "outputDirectory": "wwwroot",
-  "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/$1"
-    }
-  ]
+  "cleanUrls": true,
+  "trailingSlash": false
 }
